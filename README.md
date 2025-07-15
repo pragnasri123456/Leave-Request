@@ -12,9 +12,9 @@ Employees can submit leave requests by selecting the leave type, start/end date,
 
 ## ✅ Features Implemented
 
-- Custom table: `Leave Request [x_prj_leave_request]`
+- Custom table: `Leave Request [u_leave_request]`
 - Fields: Leave Type, From Date, To Date, Reason, Status, Approver Comments
-- Business Rule: Auto-change status to "Approved" if leave type is "Casual Leave"
+- Business Rule: Auto-change status to "Approved" if leave type is less than "24 hours"
 - Notifications: Sent to the approver and requester upon status change
 
 ---
